@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>나의 시간표</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+      #timetable {table-layout: fixed; width: 88%; text-align: center;}
+      #timetable caption {font-size: 20pt; font-weight: bold; margin: 0.5em;}
+      thead {background-color: skyblue;}
+    </style>
+  </head>
+  <body>
+    <h3>시간표</h3>
+    <table border="1" id="timetable">
+      <caption>4학년 1학기</caption>
+      <thead>
+        <tr>
+          <th>교시</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th> <th>토</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td> <td rowspan="2">웹 프로그래밍</td> <td>&nbsp</td> <td>&nbsp</td> <td rowspan="2">JAVA</td> <td rowspan="2">웹 프로그래밍</td> <td rowspan="2">HW Project</td>
+        </tr>
+        <tr>
+          <td>2</td> <td>&nbsp</td> <td>&nbsp</td>
+        </tr>
+        <tr>
+          <td>3</td> <td>&nbsp</td> <td rowspan="2">드론 제작 운용</td> <td rowspan="2">드론 제작 운용</td> <td>&nbsp</td> <td rowspan="2">머신 러닝</td> <td>&nbsp</td>
+        </tr>
+        <tr>
+          <td>4</td> <td>&nbsp</td> <td>&nbsp</td> <td>&nbsp</td>
+        </tr>
+        <tr>
+          <td>5</td> <td>&nbsp</td> <td>&nbsp</td> <td rowspan="2">JAVA</td> <td>&nbsp</td> <td>코딩 테스트</td> <td rowspan="2">HW Project</td>
+        </tr>
+        <tr>
+          <td>6</td> <td>&nbsp</td> <td>&nbsp</td> <td>&nbsp</td> <td>세미나</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>총 학점</th> <th colspan="6"> 24학점</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>연습문제 25번</title>
+  <style>
+    .divgroup { display: inline-block; margin-bottom: 3%; width: 100%; text-align: left;}
+    div { display: inline-block; text-align: center; margin-bottom: 3px; padding-bottom: 10%;}
+
+    @media all and (max-width: 600px) {
+      .divgroup div {width:80%; border: medium dotted black; }
+    }
+    @media all and (min-width: 600px) and (max-width: 1000px) {
+      .divgroup div {width:40%; background-color: blue;}
+    }
+    @media all and (min-width: 1000px) {
+      .divgroup div {width:20%; background-color: yellow;}
+    }
+  </style>
+  </head>
+  <body>
+    <div class="divgroup">
+      <div>1번 영역</div>
+      <div>2번 영역</div>
+      <div>3번 영역</div>
+      <div>4번 영역</div>
+      <div>5번 영역</div>
+    </div>
+  </body>
+
+</html>
